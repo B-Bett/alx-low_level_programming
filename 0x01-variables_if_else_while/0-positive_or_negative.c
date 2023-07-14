@@ -8,6 +8,7 @@ int main(void)
 {
 int n;
 strand(time(0));
-n=rand() - RAND_MAX / 2;
+n = rand() - RAND_MAX / 2;
+/* the code goes there */
 return (0);
 }
