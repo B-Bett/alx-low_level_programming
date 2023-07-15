@@ -1,19 +1,15 @@
 #include <stdio.h>
 /**
- * main - print numbers between 0 to 9 and letters between a to f
+ * main - print lowercase alphabet in reverse then new line
  * Return: 0 (success)
  */
 int main(void)
 {
-	int i;
+	char ch;
 
-	for (i = 48; i < 58; i++)
+	for (ch = 'z'; ch >= 'a'; ch--)
 	{
-		putchar(i);
-	}
-	for (i = 97; i < 103; i++)
-	{
-		putchar(i);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
