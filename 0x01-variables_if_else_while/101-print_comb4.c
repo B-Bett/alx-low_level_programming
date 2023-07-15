@@ -9,9 +9,9 @@ int main(void)
 
 	for (n = 48; n < 55; n++)
 	{
-		for (m = 49; m < 55; m++)
+		for (m = 49; m < 54; m++)
 		{
-			for (l = 50; l < 53; l++)
+			for (l = 50; l < 54; l++)
 			{
 				putchar(n);
 				putchar(m);
