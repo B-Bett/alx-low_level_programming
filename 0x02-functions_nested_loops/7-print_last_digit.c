@@ -12,7 +12,7 @@ int print_las_digit(int n)
 	if (l < 0)
 	{
 		_putchar(-l + 48);
-		return (-L);
+		return (-l);
 	}
 	else
 	{
