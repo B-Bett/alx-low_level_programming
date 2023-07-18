@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 /**
  * _isalpha - shows 1 if the input is a letter, another cases shows 0
  * @c: the character in ASCII code
